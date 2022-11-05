@@ -62,7 +62,7 @@
                     <input type="hidden" name="action" value="update">
                     <h2>Edit User</h2>
                     <table class="table table-striped">
-                     <tr><td><label for="email">Email: </label></td><td><input type="text" name="email" value="<%= request.getAttribute("email")%>" ></td></tr>
+                        <tr><td><label for="email">Email: </label></td><td><input type="text" name="email" value="<%= request.getAttribute("email")%>"  readonly=""></td></tr>
                     <tr><td><label for="editFirstName">First Name: </label></td><td><input type="text" name="editFirstName" value="<%= request.getAttribute("editFirstName")%>"></td></tr>
                     <tr><td><label for="editLastName">Last Name: </label></td><td><input type="text" name="editLastName" value="<%= request.getAttribute("editLastName")%>"></td></tr>
                     <tr><td><label for="editPassword">Password: </label></td><td><input type="text" name="editPassword" value="<%= request.getAttribute("editPassword")%>"></td></tr>
