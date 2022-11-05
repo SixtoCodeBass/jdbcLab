@@ -1,3 +1,3 @@
-# jdbcLab
- CRUD
+# CRUD Lab6
+
 JSP SERVLET AND JDCB
